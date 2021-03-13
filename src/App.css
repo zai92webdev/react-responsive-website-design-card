@@ -1,0 +1,7 @@
+.app__content {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 255, 254, 0.288);
+}
+

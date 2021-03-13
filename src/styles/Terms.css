@@ -1,0 +1,21 @@
+.terms {
+    width: 900px;
+    line-height: 2rem;
+}
+
+header > h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header > p {
+    margin-bottom: 1rem;
+}
+
+.terms__contents > h2 {
+    margin: 3rem 0 1.4rem 0;
+}
+
+.terms__contents > p {
+    margin: 1rem 0;
+}

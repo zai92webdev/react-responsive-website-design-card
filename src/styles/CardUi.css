@@ -1,0 +1,66 @@
+.card {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 15px 8px -4px rgba(236, 233, 233, 0.322);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    box-shadow: 5px 15px 8px -4px rgb(236, 233, 233);
+}
+
+.card:not(:hover) {
+    transition: all 0.2s ease-in;
+}
+
+.card:hover button {
+    opacity: 100;
+    transition: 0.4s ease-in-out;
+    transform: translate(-10px);
+}
+
+.card__preview > img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__detail {
+    position: relative;
+    margin: 15px 15px;
+}
+
+.card__detail > h4 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: rgb(28, 28, 29);
+}
+
+.card__detail > h6 {
+    margin-bottom: 5px;
+    font-size: .8rem;
+    color: gray;
+}
+
+.card__detail > button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px -4px rgb(129, 129, 129);
+    background-image: linear-gradient(to right, #68E4BC 9%, #4AD0D1 99%);
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+}

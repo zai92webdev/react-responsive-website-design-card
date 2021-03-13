@@ -1,0 +1,30 @@
+.privacy {
+    width: 900px;
+    line-height: 2rem;
+}
+
+header > p {
+    margin-bottom: 1rem;
+}
+
+.privacy__terms > h2 {
+    margin: 3rem 0 1.4rem 0;
+}
+
+.privacy__terms > h4 {
+    margin-bottom: 1rem;
+}
+
+.privacy__terms > p {
+    margin-bottom: 1rem;
+}
+
+.privacy__terms > ul {
+    margin-bottom: 1rem;
+}
+
+.privacy__terms > ul > li {
+    list-style: disc;
+    margin-bottom: .5rem;
+    list-style-position: inside;
+}

@@ -1,0 +1,105 @@
+.home {
+    max-width: 1500px;
+    width: 100%;
+    min-height: calc(100vh - 167px);
+}
+
+.home__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #68E4BC 0%, #4AD0D1 99%);
+    padding:20px 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  0 10px 30px -20px #046950 ;
+}
+
+.home__banner > h1, h3, p {
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.home__banner__address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    width: 100%;
+}
+
+.home__banner__address > input {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(24, 189, 175, 0.884);
+    margin-bottom: 10px;
+}
+
+.home__banner__address > input:hover {
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+.home__banner__address > input::placeholder {
+    color: white;
+}
+
+.home__banner__address > input:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1.5px rgb(255, 255, 255);
+}
+
+.home__banner__address > button {
+    padding: 10px 30px;
+    background-color: rgba(128, 128, 128, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.home__banner__address > button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.home__search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom:1px solid rgb(231, 231, 231);
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.home__search > input {
+    border: none;
+    font-size: larger;
+    outline: none;
+}
+
+.home__search:hover {
+    border-bottom:1px solid rgba(26, 184, 158, 0.589);
+}
+
+.home__searchIcon {
+    font-size: larger;
+    color: gray;
+    margin-right: 15px;
+}
+
+.home__card {
+    padding: 10px 60px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+    grid-gap: 30px;
+}
