@@ -3,8 +3,9 @@
     line-height: 2rem;
 }
 
-header > p {
+.privacy__paragraph {
     margin-bottom: 1rem;
+    color: black;
 }
 
 .privacy__terms > h2 {
@@ -12,10 +13,6 @@ header > p {
 }
 
 .privacy__terms > h4 {
-    margin-bottom: 1rem;
-}
-
-.privacy__terms > p {
     margin-bottom: 1rem;
 }
 
